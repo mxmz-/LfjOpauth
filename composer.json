@@ -12,6 +12,11 @@
             "name": "Lorenzo Ferrara Junior",
             "email": "lorenzoferrarajr@gmail.com",
             "homepage": "http://www.lorenzoferrara.net/"
+        },
+        {
+            "name": "Maksim (mxmz) Luzik",
+            "email": "maksim.luzik@gmail.com",
+            "homepage": "http://www.maksimluzik.com/"
         }
     ],
     "require": {
