@@ -1,7 +1,8 @@
 LfjOpauth
 =========
 
-Created By Lorenzo Ferrara Junior
+Originally By Lorenzo Ferrara Junior,
+Forked By Maksim Luzik (mxmz-)
 
 Introduction
 ------------
