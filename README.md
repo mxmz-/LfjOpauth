@@ -18,7 +18,7 @@ To use the module you need to:
 - Install at least one of the [Opauth](http://opauth.org/) strategies
 - Enable the LfjOpauth module
 
-To install the LfjOpauth module, you need to add `"lorenzoferrarajr/lfj-opauth": "dev-master"` to the `require` list of your project's `composer.json` file.
+To install the LfjOpauth module, you need to add `"mxmz/lfj-opauth": "dev-master"` to the `require` list of your project's `composer.json` file.
 
 To install the [Opauth](https://github.com/opauth) strategy, you need find the required 
 package on [Packagist](https://packagist.org/search/?q=opauth) or on [GitHub](https://github.com/opauth) and add it to the `require` list of your project's `composer.json` file.
@@ -32,7 +32,7 @@ This is an example of a modified `composer.json` which includes the LfjOpauth mo
     "require": {
         "php": ">=5.3.3",
         "zendframework/zendframework": ">2.2.0rc1",
-        "lorenzoferrarajr/lfj-opauth": "dev-master",
+        "mxmz/lfj-opauth": "dev-master",
         "opauth/facebook": "0.2.1"
    }
 }
@@ -286,7 +286,7 @@ Other info
 
 LfjOpauth uses `Zend\Authentication\AuthenticationService` (alias `lfjopauth_auth_service`) to manage authentication.
 
-The `LfjOpauth\Service\OpauthService` (alias: `opauth_service`) class exposes the `redirect` and `callback` methods which can be used in any controller. An example can be found in the [LfjOpauth\Controller\LoginController](https://github.com/lorenzoferrarajr/LfjOpauth/blob/master/src/LfjOpauth/Controller/LoginController.php) class.
+The `LfjOpauth\Service\OpauthService` (alias: `opauth_service`) class exposes the `redirect` and `callback` methods which can be used in any controller. An example can be found in the [LfjOpauth\Controller\LoginController](https://github.com/mxmz-/LfjOpauth/blob/master/src/LfjOpauth/Controller/LoginController.php) class.
 
 LICENSE
 -----
