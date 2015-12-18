@@ -37,7 +37,7 @@ class OpauthService implements ServiceLocatorAwareInterface, EventManagerAwareIn
         /** @var \Zend\Authentication\AuthenticationService $auth */
         $authenticationService = $this->getServiceLocator()->get('lfjopauth_auth_service');
 
-        /** @var \LfjOpauth\Authentication\Adapter $authAdapter */
+        /** @var \LfjOpauth\Authentication\AuthenticationAdapter $authAdapter */
         $authAdapter = $this->getServiceLocator()->get('lfjopauth_auth_adapter');
         $authAdapter->setOpauth($opauth);
         $authAdapter->setOpauthProvider($provider);
