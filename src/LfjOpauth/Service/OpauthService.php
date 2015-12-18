@@ -43,7 +43,7 @@ class OpauthService implements ServiceLocatorAwareInterface, EventManagerAwareIn
         $authAdapter->setOpauthProvider($provider);
         $authAdapter->setAuthenticationService($authenticationService);
 
-        /** @var \Zend\Authentication\Result $result */
+        /** @var \Zend\Authentication\Result $authenticationResult */
         $authenticationResult = $authenticationService->authenticate($authAdapter);
 
         $data = array(
